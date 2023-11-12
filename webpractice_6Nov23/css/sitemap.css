@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .sitemap {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .sitemap p a {
+    text-decoration: none;
+    color: rgb(218, 25, 25);
+  }
+  
+  .sitemap p a:hover {
+    text-decoration: underline;
+    color: blue;
+  }
+
+  .sitemap ul li a {
+    display:contents;
+  }
+
+  

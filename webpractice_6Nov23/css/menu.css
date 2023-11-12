@@ -1,0 +1,41 @@
+@charset "utf-8";
+#menu {
+    background-color: red;
+    color: white;
+}
+#menu ul {
+    list-style-type: none;
+}
+#menu ul li {
+    background-color: red;
+    float: left;
+    position: relative;
+    border: 0.5px solid white;
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 4px;
+}
+#menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: yellow;
+}
+#menu ul li a:hover {
+    background-color: aqua;
+    color: blue;
+    border-radius: 4px;
+}
+#menu ul ul {
+    display: none;
+    position: absolute;
+    padding: 0; /* keep no space when hovering all ul */
+}
+#menu ul li:hover > ul {
+    display: block;
+}
+#menu ul ul ul {
+    margin-left: 120px;
+    top: 0px;
+}

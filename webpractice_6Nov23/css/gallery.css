@@ -1,0 +1,97 @@
+
+.container-division h2 {
+    background-color: green;
+    color: rgb(250, 250, 250);
+    text-align: center;
+  }
+
+/* the 3 main sides */
+.container-division {
+    padding-top: 10px;
+    display: flex;
+}
+.left-side, .middle-side, .right-side {
+    flex: 1;
+    padding: 20px;
+    background-color: #d79696;
+}
+
+/* devide the main right side as 3 parts */
+.right-side {
+    display: flex;
+    flex-direction: column;
+}
+.up-side, .middle-right-side, .below-side {
+    flex: 1;
+    padding: 10px;
+}
+.up-side {
+    background-color: #edb3b3;
+}
+.middle-right-side {
+    background-color: #c18282;
+}
+.below-side {
+    background-color: #dfaeae;
+}
+
+/* format of the text of sub-right side */
+.right-side h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* hover the text */
+.left-side p:hover,
+.left-side span:hover {
+    font-weight: bold;
+    color: red;
+}
+
+.left-side h2:hover {
+    font-size: 24px;
+}
+
+/* img settings */
+.left-side figure {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.left-side figcaption {
+    font-style: italic;
+    margin-top: 10px;
+    text-align: center;
+}
+.left-side figure img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content horizontally */
+    justify-content: center; /* Center the content vertically */
+}
+
+/* set the main middle side */
+.middle-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content horizontally */
+    justify-content: center; /* Center the content vertically */
+}
+
+/* video settings */
+.video-container {
+    margin-bottom: 20px;
+}
+.video-container video {
+    width: 100%;
+    max-width: 400px;    
+}
+.video-container figcaption {
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+}
+

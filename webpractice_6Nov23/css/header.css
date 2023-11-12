@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background-color: red;
+  }
+  
+  /* logo settings */
+  .logo {
+    align-items: center;
+  }  
+  .logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    text-align: center;
+    }
+  .logo p {
+    font-style: italic;
+    text-align: center;
+    color: #fff;
+  }
+
+  /* Searchbox settings */
+  .top-search-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    margin-right: 10px;
+  }  
+  .top-search-box input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 5px;
+  }  
+  .top-search-box button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(11, 69, 242);
+    color: #fff;
+  }  
+  #top-search-results {
+    margin-top: 20px;
+  } 
+  
+  /* Top top-menu settings*/
+  #top-menu {
+      color: white;      
+      list-style: none;
+      display: flex;
+  }
+  #top-menu ul {
+      list-style-type: none;
+  }
+  #top-menu ul li {
+      background-color: red;
+      display: block;
+      position: relative;
+      float: left;
+
+      /* border: 0.5px solid white; */
+      width: 120px;
+      height: 35px;
+      line-height: 35px;
+      text-align: center;
+      border-radius: 4px;
+  }
+  #top-menu ul li a {
+      display: block;
+      text-decoration: none;
+      color: yellow;
+  }
+  #top-menu ul li a:hover {
+      background-color: aqua;
+      color: blue;
+      border-radius: 4px;
+  }
+  #top-menu ul ul {
+      display: none;
+      position: absolute;
+      padding: 0;  /* keep no space when hovering all ul  */
+  }
+  #top-menu ul li:hover > ul {
+      display: block;
+      background-color:green;
+  }
+  #top-menu ul ul ul {
+      margin-left: 120px;
+      top: 0px;
+  }
+  

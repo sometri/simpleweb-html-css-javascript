@@ -1,0 +1,34 @@
+/* scroll-button */
+.scroll-button {
+    position: fixed;
+    width: 40px; /* the width of the scroll buttons */
+    height: 40px; /* the height of the scroll buttons */
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 16px; /* the font size of the arrow */
+    font-weight: bold;
+    line-height: 40px; /* Adjust the line height to center the arrow vertically */
+    text-align: center;
+    cursor: pointer;
+    z-index: 9999;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+  }
+  
+  .scroll-button:hover {
+    opacity: 1;
+  }
+  
+  #scroll-up-button {
+    right: 20px;
+    bottom: 100px;
+  }
+  
+  #scroll-down-button {  
+    right: 20px;
+    bottom: 20px;
+  } 
+  /* end of scroll-button
+  

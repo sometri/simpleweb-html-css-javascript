@@ -1,0 +1,11 @@
+.image-gallery {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.image-gallery img {
+    width: 200px;
+    height: 150px;
+    margin-right: 20px;
+}
