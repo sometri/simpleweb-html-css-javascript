@@ -1,0 +1,14 @@
+
+.question {
+  font-weight: bold;
+  cursor: pointer;
+  padding:5px 0 5px 5px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.answer {
+  margin-left: 25px;
+  margin-bottom: 10px;  
+  display: none;
+}

@@ -1,0 +1,25 @@
+.container-img {
+    position: relative;
+    overflow: hidden;
+    padding: 8px 0 10px 10px;
+}
+
+.image-gallery {
+    display: flex;
+    animation: scrollImages 20s linear infinite;
+}
+
+.image-gallery img {
+    width: 220px;
+    height: 170px;
+    margin-right: 5px;
+}
+
+@keyframes scrollImages {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

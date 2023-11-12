@@ -1,0 +1,72 @@
+/* Body styles*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  }
+
+/* Header styles */
+/* see the header file */
+/* header {
+  background-color: red;
+  color: #fff;
+  padding: 10px; 
+  text-align: center;
+} */
+
+h1 {
+  background-color: red;
+  color: #fff;
+  padding: 10px; 
+  text-align: left;
+}
+
+h2 {
+  color: blue;
+}
+
+/* Menu styles */
+/* see the menu file*/
+
+/* Main styles */
+#main {
+  padding: 20px;
+}
+
+#content {
+  /* max-width: 800px; */
+  max-width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+  }
+
+/* Footer styles */
+/* #footer {
+  background-color: rgb(219, 86, 86);
+  padding: 10px;
+  text-align: left;
+} */
+#scrollButton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: rgb(216, 235, 187);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#scrollButton:hover {
+  background-color: red;
+  color:wheat;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;  
+}
+.clear {
+  clear: both;
+}

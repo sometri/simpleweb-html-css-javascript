@@ -1,0 +1,94 @@
+  .container {
+    /* width: 500px; */
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 16px;
+  }  
+
+  .container input[type="text"],
+  .container input[type="email"],
+  .container input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }  
+  .container input[type="text"]:focus,
+  .container input[type="email"]:focus,
+  .container input[type="password"]:focus {
+    background-color: #ddd;
+    outline: none;
+  }  
+  .container .registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+  }  
+  .container .registerbtn:hover {
+    background-color: #008CBA;
+  }
+
+  /* next line */
+  .container .container::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  /* login */
+  .container .loginbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+  }  
+  .container .loginbtn:hover {
+    background-color: #008CBA;
+  }  
+  .container::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  /* login form */  
+  .container .login {
+    display: none;
+  }  
+  .container .login form {
+    margin-top: 20px;
+  }  
+  .container .login input {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }  
+  .container .login input:focus {
+    background-color: #ddd;
+    outline: none;
+  }  
+  .container .login button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+  }  
+  .container .login button:hover {
+    background-color: #008CBA;
+  }
+  
